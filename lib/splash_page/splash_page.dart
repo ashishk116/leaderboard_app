@@ -161,7 +161,7 @@ class _SplashPageState extends State<SplashPage> {
                       context,
                       MaterialPageRoute(
                         builder: (context) {
-                          return LeaderBoard();
+                          return Home();
                         },
                       ),
                     );
@@ -194,7 +194,7 @@ class _SplashPageState extends State<SplashPage> {
                       ),
                     );
                   },
-                  child: Text("checking"),
+                  child: Text("")
                 ),
               ],
             ),
